@@ -5,91 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos-Ayres de Casa</title>
     <link rel="shortcut icon" href="../Imagenes/Logo.jpeg" type="logo">
-    <link rel="stylesheet" href="../CSS/Estilo.css"">
+    <link rel="stylesheet" href="../CSS/Estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
-<body>
-    <div class="unidad">
-        <header class="cabeza">
-            <input type="search" name="buscar" id="buscar">
-            <img src="../Imagenes/Icono Buscar.png" alt="buscador" class="icono-buscar">
-            <img class="logo" src="../Imagenes/Logo con Texto.png" alt="logo-con-texto">
-            <img src="../Imagenes/Icono Carrito.png" alt="carrito" class="carrito">
-        </header>
+<body>  
+    <div class="conteiner-fluid">
+        <div class="row g-0">
+            <div class="col-12 g-0">
+                <header class="cabeza">
+                    <input type="search" name="buscar" id="buscar">
+                    <img src="../Imagenes/Icono Buscar.png" alt="buscador" class="icono-buscar">
+                    <img class="logo" src="../Imagenes/Logo con Texto.png" alt="logo-con-texto">
+                    <img src="../Imagenes/Icono Carrito.png" alt="carrito" class="carrito">
+                </header>
+            </div>
+        </div>
 
-        <nav class="navegar"> 
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../Paginas/Tienda.html">Tienda</a></li>
-                <li><a href="../Paginas/Eventos.html">Eventos</a></li>
-                <li><a href="../Paginas/Nosotros.html">Nosotros</a></li>
-                <li><a href="../Paginas/Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="row g-0">
+            <div class="col-12 g-0">
+                <nav class="navegar"> 
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./Tienda.html">Tienda</a></li>
+                        <li><a href="./Eventos.html">Eventos</a></li>
+                        <li><a href="./Nosotros.html">Nosotros</a></li>
+                        <li><a href="./Contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+
+        <main>
+            <div class="row g-0">
+                <div class="col-12">
+                    <div class="eventos">
+                        <div class="eventos-texto">
+                            <h1>Eventos</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam corrupti omnis fugit delectus, illum neque cum minima accusantium repellat voluptatibus aliquid praesentium!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="eventos-feria">
+                <div class="row g-0">
+                    <div class="col-12 col-xl-6">
+                        <div class="feria-uno">
+                            <h3>Feria 05.11.2022</h3>
+                            <img src="../Imagenes/Feria 1.jpeg" alt="feria-uno">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem a cumque corrupti voluptatem quo placeat, vero et esse voluptatum aliquid porro expedita eaque est illo! Explicabo cum eius et ea provident officia deserunt quisquam sed iusto totam molestias fuga excepturi sequi dolores, rerum asperiores mollitia natus, consectetur corrupti harum.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <div class="feria-dos">
+                            <h3>Feria 17.12.2022</h3>
+                            <img src="../Imagenes/Feria 2.jpeg" alt="feria-dos">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem a cumque corrupti voluptatem quo placeat, vero et esse voluptatum aliquid porro expedita eaque est illo! Explicabo cum eius et ea provident officia deserunt quisquam sed iusto totam molestias fuga excepturi sequi dolores, rerum asperiores mollitia natus, consectetur corrupti harum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <div class="row g-0">
+                <div class="col-12">
+                    <div class="proximos-eventos">
+                        <h2>Proximos Eventos</h2>
+                        <div class="proximos-eventos-texto">
+                            <p>Escribi tu mail para suscribirte a informacion sobre proximos eventos!</p>
+                            <input type="email">
+                            <button>Suscribirse</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="fotos-eventos">
+                <div class="row g-0">
+                    <div class="col-12 col-xl-3">
+                        <img src="../Imagenes/Mantas Trinidad Colores.jpeg" alt="cambiar">
+                    </div>
+                    <div class="col-12 col-xl-3">
+                        <img src="../Imagenes/Almohadon Tusor.jpeg" alt="cambiar">
+                    </div>
+                    <div class="col-12 col-xl-3">
+                        <img src="../Imagenes/Mantas Trinidad Reverso Colores.jpeg" alt="cambiar">
+                    </div>
+                    <div class="col-12 col-xl-3">
+                        <img src="../Imagenes/Servilletas Totis.jpeg" alt="cambiar">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        
+        <footer class="pie">
+            <div class="row g-0">
+                <div class="col-6 col-xl-3 pie-logo">
+                    <img src="../Imagenes/Logo con Texto.png" alt="logo-con-texto">
+                </div>
+                <div class="col-6 col-xl-3 pie-iconos">
+                    <h2>Seguinos</h2>
+                    <a href="https://www.facebok.com"><img src="../Imagenes/Icono Facebook.png" alt="icono-facebook"></a>
+                    <a href="https://instagram.com/ayresdecasa?igshid=Yzg5MTU1MDY="><img src="../Imagenes/Icono Instagram.png" alt="icono-instagram"></a>
+                    <a href="https://www.tiktok.com/@ayresdecasa_"><img src="../Imagenes/Icono Tiktok.png" alt="icono-tiktok"></a>
+                </div>
+                <div class="col-6 col-xl-3 pie-contacto">
+                    <h3><a href="./Contacto.html">Contacto</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vitae modi, non possimus dolorum debitis autem dolores asperiores et voluptatum!</p>
+                </div>
+                <div class="col-6 col-xl-3 pie-politicas">
+                    <h3><a href="./Contacto.html">Politicas</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vitae modi, non possimus dolorum debitis autem dolores asperiores et voluptatum!</p>
+                </div>
+            </div>
+        </footer> 
     </div>
-
-    <main>
-        <div class="eventos">
-            <div class="eventos-texto">
-                <h1>Eventos</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam corrupti omnis fugit delectus, illum neque cum minima accusantium repellat voluptatibus aliquid praesentium!</p>
-            </div>
-        </div>
-
-        <div class="eventos-feria">
-            <div class="feria-uno">
-                <h3>Feria 05.11.2022</h3>
-                <img src="../Imagenes/Feria 1.jpeg" alt="feria-uno">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem a cumque corrupti voluptatem quo placeat, vero et esse voluptatum aliquid porro expedita eaque est illo! Explicabo cum eius et ea provident officia deserunt quisquam sed iusto totam molestias fuga excepturi sequi dolores, rerum asperiores mollitia natus, consectetur corrupti harum.</p>
-            </div>
-            <div class="feria-dos">
-                <h3>Feria 17.12.2022</h3>
-                <img src="../Imagenes/Feria 2.jpeg" alt="feria-dos">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem a cumque corrupti voluptatem quo placeat, vero et esse voluptatum aliquid porro expedita eaque est illo! Explicabo cum eius et ea provident officia deserunt quisquam sed iusto totam molestias fuga excepturi sequi dolores, rerum asperiores mollitia natus, consectetur corrupti harum.</p>
-            </div>
-        </div>
-
-        <hr>
-
-        <div class="proximos-eventos">
-            <h2>Proximos Eventos</h2>
-            <div class="proximos-eventos-texto">
-                <p>Escribi tu mail para suscribirte a informacion sobre proximos eventos!</p>
-                <input type="email">
-                <button>Suscribirse</button>
-            </div>
-        </div>
-
-        <hr>
-
-        <div class="fotos-eventos">
-            <img src="../Imagenes/Mantas Trinidad Colores.jpeg" alt="cambiar">
-            <img src="../Imagenes/Almohadon Tusor.jpeg" alt="cambiar">
-            <img src="../Imagenes/Mantas Trinidad Reverso Colores.jpeg" alt="cambiar">
-            <img src="../Imagenes/Servilletas Totis.jpeg" alt="cambiar">
-        </div>
-    </main>
-
-    
-    <footer class="pie">
-        <div class="pie-logo">
-            <img src="../Imagenes/Logo con Texto.png" alt="logo-con-texto">
-        </div>
-        <div class="pie-iconos">
-            <h2>Seguinos</h2>
-            <a href="https://www.facebok.com"><img src="../Imagenes/Icono Facebook.png" alt="icono-facebook"></a>
-            <a href="https://instagram.com/ayresdecasa?igshid=Yzg5MTU1MDY="><img src="../Imagenes/Icono Instagram.png" alt="icono-instagram"></a>
-            <a href="https://www.tiktok.com/@ayresdecasa_"><img src="../Imagenes/Icono Tiktok.png" alt="icono-tiktok"></a>
-        </div>
-        <div class="pie-contacto">
-            <h3><a href="../Paginas/Contacto.html">Contacto</a></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vitae modi, non possimus dolorum debitis autem dolores asperiores et voluptatum!</p>
-        </div>
-        <div class="pie-politicas">
-            <h3><a href="../Paginas/Contacto.html">Politicas</a></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vitae modi, non possimus dolorum debitis autem dolores asperiores et voluptatum!</p>
-        </div>
-    </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

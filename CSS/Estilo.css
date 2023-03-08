@@ -292,8 +292,8 @@ button:hover{
 .eventos{
     display: flex;
     background: url('../Imagenes/Fondo\ Eventos.jpeg') no-repeat center/cover;
-    height: 60%;
-    margin: 50px 0;
+    height: 600px;
+    margin: 25px 0;
 }
 
 .eventos-texto{
@@ -313,13 +313,11 @@ button:hover{
 }
 
 .eventos-feria{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 120px;
-    width: 60%;
+    display: flex;
     margin: auto;
     padding-bottom: 10px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .eventos-feria img{
@@ -330,8 +328,9 @@ button:hover{
 
 .eventos-feria p{
     margin-top: 20px;
-    font-family:'Playfair Display', serif;
+    font-family:'Playfair Display', serif; 
     font-size: 15px;
+    padding: 0px 80px;
 }
 
 .eventos-feria h3{
@@ -349,7 +348,7 @@ button:hover{
 .proximos-eventos-texto{
     width: 60%;
     margin: 20px 280px ;
-    font-family:'Playfair Display', serif;
+    font-family:'Playfair Display', serif; 
     font-size: 15px;
 }
 
@@ -370,23 +369,21 @@ button:hover{
 }
 
 .fotos-eventos{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: 100%;
+    display: flex;
     margin-top: 100px;
 }
 
 .fotos-eventos img{
-    width: 380px;
-    height: 380px;
+    width: 100%;
+    height: 320px;
 }
 
 /* Nosotros */
 .nosotros{
     display: flex;
-    width: 60%;
     margin: auto;
     margin-top: 50px;
+    text-align: center;
 }
 
 .nosotros-texto{
@@ -395,11 +392,14 @@ button:hover{
     padding-left: 30px;
     padding-top: 100px;
     font-size: 15px;
+    width: 50%;
 }
 
 .nosotros img{
     width: 500px;
     height: 500px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
 .nosotros-texto h1{
@@ -420,11 +420,6 @@ button:hover{
     font-size: 30px;
 }
 
-.equipo-info{
-    width: 70%;
-    margin: auto;
-}
-
 .equipo-info img{
     width: 200px;
     height: 200px;
@@ -433,6 +428,7 @@ button:hover{
 .laila{
     display: flex;
     width: 60%;
+    margin: auto;
 }
 
 .laila h3{
@@ -452,6 +448,11 @@ button:hover{
     background-color: #DBD2CD;
 }
 
+.laila img {
+    height: 200px;
+    width: 200px;
+}
+
 .mechi{
     display: flex;
     width: 60%;
@@ -461,9 +462,10 @@ button:hover{
 .mechi h3{
     margin-bottom: 20px;
     font-size: 20px;
-    margin-left: 350px;
     color: #8C543F;
     font-family:'Nunito',sans-serif;
+    text-align: right;
+    margin-right: 30px;
 }
 
 .mechi p{
@@ -473,18 +475,22 @@ button:hover{
     font-size: 15px;
 }
 
+.mechi img {
+    height: 200px;
+    width: 200px;
+}
+
 /* Contacto */
 .contacto{
     display: flex;
-    width: 60%;
-    margin: auto;
     margin-top: 50px;
 }
 
 .contacto img{
     width: 500px;
     height: 500px;
-    margin-bottom: 50px;
+    margin: 30px 0;
+    margin-left: 90px;
 }
 
 .contacto-form h1{
@@ -515,22 +521,18 @@ padding-top: 100px;
 .contacto-ayuda{
     display: flex;
     font-family:'Playfair Display', serif;
-    width: 80%;
-    margin: auto;
+    text-align: center;
 }
 
 .contacto-ayuda img{
     width: 400px;
     height: 300px;
-    margin-left: 200px;
 }
 
 .texto-ayuda{
-    width: 40%;
-    margin-left: 100px;
-    padding-top: 100px;
     font-family:'Playfair Display', serif;
     font-size: 15px;
+    margin-top: 30px;
 }
 
 .texto-ayuda h2{
@@ -607,7 +609,7 @@ padding-top: 100px;
 @media (max-width: 768px){
     .logo {
         margin: 0 auto;
-        margin-right: 0px;
+        margin-right: 30px;
     }
 
     .navegar ul{
@@ -616,7 +618,7 @@ padding-top: 100px;
     }
 
     .cabeza input{
-        width: 15px;
+        width: 80px;
     }
 
 /* bienvenido */
@@ -649,4 +651,151 @@ padding-top: 100px;
         font-size: 15px;
         margin-top: 15px;
     }
+
+/* evento */
+
+    .eventos{
+        display: flex;
+        height: 280px;
+        margin: 25px 0;
+    }
+    
+    .eventos-texto{
+    display: none;
+    }
+    
+    /* Proximos Eventos */
+    .proximos-eventos{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .proximos-eventos-texto{
+        width: 100%;
+        margin: 20px ;
+    }
+    
+    .proximos-eventos h2{
+        font-size: 35px;
+    }
+    
+    .fotos-eventos img{
+        width: 320px;
+        height: 320px;
+        margin: 5px 0;
+    }
+
+/* Nosotros */
+    .nosotros{
+        margin-top: 30px;
+    }
+
+    .nosotros-texto{
+        font-family:'Playfair Display', serif;
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .nosotros img{
+        width: 320px;
+        height: 320px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .nosotros-texto h1{
+        color: #8C543F;
+        font-family:'Playfair Display', serif;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    /* El equipo */
+
+    .equipo-info img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .laila{
+        display: flex;
+        width: 100%;
+        margin: auto;
+    }
+
+    .laila h3{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .laila-texto{
+        margin-left: 10px;
+        font-family:'Playfair Display', serif;
+        font-size: 15px;
+    }
+
+    .laila img {
+        height: 125px;
+        width: 125px;
+    }
+
+    .mechi{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .mechi h3{
+        margin-right: 10px;
+    }
+
+    .mechi p{
+        margin-right: 10px;
+    }
+
+    .mechi img {
+        height: 125px;
+        width: 125px;
+    }
+
+/* Contacto */
+    .contacto{
+        margin-top: 20px;
+    }
+
+    .contacto img{
+        width: 320px;
+        height: 320px;
+        margin: 0px 0;
+        margin-left: 0px;
+    }
+
+    .contacto-form h1{
+        font-size: 35px;
+    }
+
+    .contacto-form{
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-top: 10px;
+    }
+
+    .contacto-form form{
+        padding-left: 50px;
+    }
+
+    .contacto form p{
+        margin-top: 15px;
+    }
+
+    .contacto-ayuda img{
+        width: 320px;
+        height: 300px;
+    }
+
+    .texto-ayuda h2{
+        margin-bottom: 20px;
+    }
+
 }
