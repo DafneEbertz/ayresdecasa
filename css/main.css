@@ -301,7 +301,7 @@ button:hover {
     font-family: 'Playfair Display', serif;
     height: 20%;
     background-color: #DBD2CD;
-    opacity: 50%;
+    opacity: 80%;
     margin: 300px 0;
     margin-left: 850px;
     font-size: 15px;
@@ -364,11 +364,10 @@ button:hover {
 .fotos-eventos {
   text-align: center;
   display: flex;
-  margin-top: 100px;
-  width: 90%;
-  margin: auto; }
+  margin-top: 100px; }
   .fotos-eventos img {
-    width: 100%;
+    display: flex;
+    width: 336px;
     height: 320px; }
 
 .nosotros {
@@ -457,7 +456,7 @@ button:hover {
     width: 500px;
     height: 500px;
     margin: 30px 0;
-    margin-left: 90px; }
+    margin-left: 180px; }
   .contacto .contacto-form {
     margin-left: 50px;
     padding-top: 100px; }
@@ -496,7 +495,8 @@ button:hover {
   .contacto-ayuda .texto-ayuda {
     font-family: 'Playfair Display', serif;
     font-size: 15px;
-    margin-top: 30px; }
+    margin-top: 30px;
+    margin-left: 150px; }
     .contacto-ayuda .texto-ayuda p {
       padding: 0px 10px; }
     .contacto-ayuda .texto-ayuda h2 {
@@ -513,7 +513,7 @@ button:hover {
     width: 80px; }
   .cabeza .logo {
     margin: 0 auto;
-    margin-right: 50px; }
+    margin-right: 80px; }
   /* bienvenido */
   .bienvenido {
     width: 100%;
@@ -535,7 +535,7 @@ button:hover {
       .bienvenido .bienvenido-texto a {
         text-decoration: none; }
       .bienvenido .bienvenido-texto button {
-        width: 58%;
+        width: 50%;
         margin: auto;
         margin-top: 15px;
         display: flex; }
@@ -543,11 +543,12 @@ button:hover {
   .tienda .tienda-texto {
     background-color: #DBD2CD;
     opacity: 70%;
-    margin: 60px 10px; }
+    margin: 60px 10px;
+    height: 42px; }
     .tienda .tienda-texto p {
       display: none; }
     .tienda .tienda-texto h2 {
-      font-size: 45px; }
+      font-size: 40px; }
   /* Productos */
   .productos .productos-uno {
     margin-bottom: 15px; }
@@ -656,3 +657,19 @@ button:hover {
   .pie .pie-iconos {
     padding-right: 0px;
     padding-top: 30px; } }
+
+@media (max-width: 320px) {
+  .cabeza input {
+    width: 80px; }
+  .cabeza .logo {
+    margin: 0 auto;
+    margin-right: 20px; }
+  .tienda .tienda-texto {
+    background-color: #DBD2CD;
+    opacity: 70%;
+    margin: 60px 10px;
+    height: 38px; }
+    .tienda .tienda-texto p {
+      display: none; }
+    .tienda .tienda-texto h2 {
+      font-size: 35px; } }

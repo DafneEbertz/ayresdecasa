@@ -6,7 +6,7 @@
     .eventos-texto{
         font-family:'Playfair Display', serif;
         height: 20%;
-        background-color: $bk-color2; opacity: 50%;
+        background-color: $bk-color2; opacity: 80%;
         margin: 300px 0;
         margin-left: 850px;
         font-size: 15px;
@@ -83,10 +83,10 @@
     text-align: center;
     display: flex;
     margin-top: 100px;
-    width: 90%;
-    margin: auto;
+
     img{
-        width: 100%;
+        display: flex;
+        width: 336px;
         height: 320px;
     }
 }
