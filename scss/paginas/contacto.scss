@@ -1,7 +1,6 @@
 .contacto{
     display: flex;
     margin-top: 50px;
-    text-align: center;
     img{
         width: 500px;
         height: 500px;
@@ -15,10 +14,10 @@
             color: $color-titulos;
             font-family:'Playfair Display', serif;
             font-size: 50px;
-            padding-left: 80px;
+            padding-left: 40px;
         }
         form{
-            padding-left: 80px;
+            padding-left: 40px;
             .boton-enviar{
                 display: block;
                 width: 15%;
@@ -36,8 +35,14 @@
                     transition: transform 0.2s linear;
                 }
             }
-            p{
-                margin-top: 20px;
+            input {
+                width: 365px;
+                margin-top: 30px;
+            }
+            textarea {
+                width: 365px;
+                height: 150px;
+                margin-top: 30px;
             }
         }
     }

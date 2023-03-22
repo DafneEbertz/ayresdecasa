@@ -450,8 +450,7 @@ button:hover {
 
 .contacto {
   display: flex;
-  margin-top: 50px;
-  text-align: center; }
+  margin-top: 50px; }
   .contacto img {
     width: 500px;
     height: 500px;
@@ -464,9 +463,9 @@ button:hover {
       color: #8C543F;
       font-family: 'Playfair Display', serif;
       font-size: 50px;
-      padding-left: 80px; }
+      padding-left: 40px; }
     .contacto .contacto-form form {
-      padding-left: 80px; }
+      padding-left: 40px; }
       .contacto .contacto-form form .boton-enviar {
         display: block;
         width: 15%;
@@ -482,8 +481,13 @@ button:hover {
           opacity: .9;
           background-color: #DBD2CD;
           transition: transform 0.2s linear; }
-      .contacto .contacto-form form p {
-        margin-top: 20px; }
+      .contacto .contacto-form form input {
+        width: 365px;
+        margin-top: 30px; }
+      .contacto .contacto-form form textarea {
+        width: 365px;
+        height: 150px;
+        margin-top: 30px; }
 
 .contacto-ayuda {
   display: flex;
@@ -625,7 +629,8 @@ button:hover {
   /* Contacto */
   .contacto {
     margin-top: 20px;
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
     .contacto img {
       width: 320px;
       height: 320px;
@@ -647,13 +652,20 @@ button:hover {
           width: 15%;
           margin: auto;
           margin-top: 20px; }
+        .contacto .contacto-form form input {
+          width: 240px; }
+        .contacto .contacto-form form textarea {
+          width: 240px;
+          height: 100px; }
       .contacto .contacto-form p {
         margin-top: 15px; }
   .contacto-ayuda img {
     width: 320px;
     height: 300px; }
-  .contacto-ayuda .texto-ayuda h2 {
-    margin-bottom: 20px; }
+  .contacto-ayuda .texto-ayuda {
+    margin-left: 0px; }
+    .contacto-ayuda .texto-ayuda h2 {
+      margin-bottom: 20px; }
   .pie .pie-iconos {
     padding-right: 0px;
     padding-top: 30px; } }
