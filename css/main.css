@@ -86,7 +86,6 @@ button:hover {
   transition: transform 0.2s linear; }
 
 .pie {
-  display: flex;
   background-color: #DBD2CD;
   margin-top: 50px; }
   .pie .pie-iconos {
