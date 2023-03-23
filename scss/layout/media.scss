@@ -81,6 +81,15 @@
             display: none;
             }
     }
+    .eventos-feria{
+        p{
+            margin-top: 20px;
+            font-family:'Playfair Display', serif; 
+            font-size: 15px;
+            padding: 0px 20px;
+            text-align: left;
+        }
+    }
     
 /* Proximos Eventos */
     .proximos-eventos{
@@ -91,7 +100,11 @@
         }
         .proximos-eventos-texto{
             width: 100%;
-            margin: 20px ;
+            margin: 0px;
+            p{
+                text-align: left;
+                padding-left: 25px;
+            }
         }
     }
 

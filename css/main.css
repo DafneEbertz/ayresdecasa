@@ -298,7 +298,7 @@ button:hover {
   margin: 25px 0; }
   .eventos .eventos-texto {
     font-family: 'Playfair Display', serif;
-    height: 20%;
+    height: 163px;
     background-color: #DBD2CD;
     opacity: 80%;
     margin: 300px 0;
@@ -324,7 +324,8 @@ button:hover {
     margin-top: 20px;
     font-family: 'Playfair Display', serif;
     font-size: 15px;
-    padding: 0px 80px; }
+    padding: 0px 150px;
+    text-align: left; }
   .eventos-feria h3 {
     font-family: 'Playfair Display', serif;
     color: #8C543F;
@@ -333,18 +334,22 @@ button:hover {
 /* Proximos Eventos */
 .proximos-eventos {
   width: 50%;
-  margin: 30px auto; }
+  margin: 30px auto;
+  text-align: center; }
   .proximos-eventos h2 {
     font-family: 'Playfair Display', serif;
     color: #8C543F;
     font-size: 50px; }
   .proximos-eventos .proximos-eventos-texto {
     width: 60%;
-    margin: 20px 280px;
+    margin: 20px 130px;
     font-family: 'Playfair Display', serif;
     font-size: 15px; }
+    .proximos-eventos .proximos-eventos-texto p {
+      text-align: left;
+      padding-left: 38px; }
     .proximos-eventos .proximos-eventos-texto input {
-      margin: 20px 0; }
+      margin: 20px 0px; }
     .proximos-eventos .proximos-eventos-texto button {
       margin-left: 60px;
       font-size: 15px;
@@ -391,6 +396,8 @@ button:hover {
       font-family: 'Playfair Display', serif;
       font-size: 50px;
       margin-bottom: 30px; }
+    .nosotros .nosotros-texto p {
+      text-align: left; }
 
 /* El equipo */
 .equipo-titulo {
@@ -562,6 +569,12 @@ button:hover {
     margin: 25px 0; }
     .eventos .eventos-texto {
       display: none; }
+  .eventos-feria p {
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    padding: 0px 20px;
+    text-align: left; }
   /* Proximos Eventos */
   .proximos-eventos {
     width: 80%;
@@ -570,7 +583,10 @@ button:hover {
       font-size: 35px; }
     .proximos-eventos .proximos-eventos-texto {
       width: 100%;
-      margin: 20px; }
+      margin: 0px; }
+      .proximos-eventos .proximos-eventos-texto p {
+        text-align: left;
+        padding-left: 25px; }
   .fotos-eventos {
     width: 100%;
     text-align: center; }

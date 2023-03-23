@@ -5,7 +5,7 @@
     margin: 25px 0;
     .eventos-texto{
         font-family:'Playfair Display', serif;
-        height: 20%;
+        height: 163px;
         background-color: $bk-color2; opacity: 80%;
         margin: 300px 0;
         margin-left: 850px;
@@ -34,7 +34,8 @@
         margin-top: 20px;
         font-family:'Playfair Display', serif; 
         font-size: 15px;
-        padding: 0px 80px;
+        padding: 0px 150px;
+        text-align: left;
     }
     h3{
         font-family:'Playfair Display', serif;
@@ -47,6 +48,7 @@
 .proximos-eventos{
     width: 50%;
     margin: 30px auto;
+    text-align: center;
     h2{
         font-family:'Playfair Display', serif;
         color: $color-titulos;
@@ -54,11 +56,15 @@
     }
     .proximos-eventos-texto{
         width: 60%;
-        margin: 20px 280px ;
+        margin: 20px 130px ;
         font-family:'Playfair Display', serif; 
         font-size: 15px;
+        p{
+            text-align: left;
+            padding-left: 38px;
+        }
         input{
-            margin: 20px 0;
+            margin: 20px 0px;
         }
         button{
             margin-left: 60px;
